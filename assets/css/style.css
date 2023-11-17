@@ -1,0 +1,64 @@
+/* default css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.text-yellow {
+   color: #e8c400; 
+}
+.bg-yellow {
+   background: #e8c400; 
+}
+
+/* buttons */
+.login-btn {
+    padding: 7px 20px;
+    background: transparent;
+    /* font-size: 1.3rem; */
+    font-weight: 600;
+}
+
+/* icons styles */
+.navBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.navBtns .fa-solid {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* header Section Code Start =========================
+
+==================================================================
+*/
+
+.logo img{
+    width:150px;
+    height: auto;
+}
+.nav-right{
+    display: flex;
+    flex-direction: column;
+}
+
+/* category navbar */
+nav.categoryNav {
+    background: lightgray;
+    padding: 10px;
+}
+
+nav.categoryNav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
