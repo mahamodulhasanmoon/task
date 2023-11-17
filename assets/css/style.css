@@ -170,11 +170,23 @@ font-size: 1.2rem;
     gap: 5px;
   }
 
-  .card {
-    padding: 20px;
+  .view {
+  
     margin-bottom: 10px;
+    box-shadow: 2px 4px 10px #444;
   }
+.view img{
+  max-height: 400px;
+}
+.clearf {
+  overflow: hidden; 
 
+}
+
+.clearf img {
+  float: right; /* Float the image to the right */
+  margin: 0 0 20px 20px; /* Adjust margin as needed */
+}
   /* Specific styles for each card */
   .card1 {
     grid-column: 1 / 4;
