@@ -19,10 +19,10 @@ color: red;
     border-top: 4px solid #000;
 }
 .text-yellow {
-   color: #e8c400; 
+   color: #eac400; 
 }
 .bg-yellow {
-   background: #e8c400; 
+   background: #eac400; 
 }
 .customize_hr {
     border-top: 12px solid black;
@@ -101,7 +101,7 @@ nav.categoryNav a {
   }
 
 .cover-image {
-    border-top: 2px solid yellow;
+    border-top: 2px solid #eac400;
 }
 
 .text-white{
@@ -131,7 +131,7 @@ video {
 /* video section */
 .video-section{
 background:#000;
-color: #e8c400;
+color: #eac400;
 }
 .heading {
     margin-left: 30px;
@@ -142,7 +142,7 @@ color: #e8c400;
 }
 /* footer */
 .footer{
-  background-color: #2a60a1; 
+  background-color: #0f416e; 
   color: #fff; 
 }
 .position {
